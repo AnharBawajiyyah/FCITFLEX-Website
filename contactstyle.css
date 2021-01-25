@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background: #f1f1f1;
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	background-color: #700d0d;
+}
+
+.logo {
+	position: absolute;
+	padding: 3px 5px 5px 40px;
+
+}
+
+.navbar {
+	width: 100%;
+	height: 60px;
+	background: #292930;
+	padding-bottom: 3px;
+}
+
+.navbar p {
+	font-family: arial;
+	color: #c9c9c9;
+	font-size: 30px;
+	line-height: 55px;
+	float: left;
+	padding: 5px 50px 5px 110px;
+	font-weight: bold;
+}
+
+.navbar ul {
+	float: right;
+	padding-right: 50px;
+}
+
+.navbar ul li {
+	float: right;
+	list-style: none;
+	position: relative;
+}
+
+.navbar ul li a {
+	display: block;
+	font-family: arial;
+	color: #c9c9c9;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #292930;
+	padding: 0px;
+	border-radius: 0px 0px 14px 14px;
+}
+
+.navbar ul li:hover ul {
+	display: block;
+}
+
+.navbar ul li ul li {
+	width: 100px;
+}
+
+.navbar ul li ul li a {
+	padding: 6px 10px;
+	text-align: center;
+}
+
+.navbar ul li ul li a:hover {
+	background-color: #787878
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 300px;
+  height: 100%;
+  padding: 12px 12px 12px 12px;
+  color: bl;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #700d0d;
+  color: #700d0d;
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.fl_left{
+	float:left;
+	padding: 20px 20px 20px 60px;
+	background: #292930;
+	color: #c9c9c9;
+	font-size:13px;
+	font-weight: bold;
+}
+.fl_right{
+	float:right;
+	padding: 20px 60px 20px 20px;
+	background: #292930;
+	color: #c9c9c9;
+	font-size:13px;
+	font-weight: bold;
+}
+
+.signiture {
+	height: 60px;
+	width: auto;
+	background: #292930;
+	margin-top: 20px;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 10px 20px 0 20px;
+}
+
+.cimg {
+	float: right;
+	margin: 40px 40px 40px 40px;
+	width: 700px;
+	height: auto;
+	
+}

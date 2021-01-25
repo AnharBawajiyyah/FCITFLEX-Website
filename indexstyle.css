@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	position: absolute;
+	padding: 3px 5px 5px 40px;
+
+}
+
+.navbar {
+	width: 100%;
+	height: 60px;
+	background: #292930;
+	padding-bottom: 3px;
+}
+
+.navbar p {
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color: #c9c9c9;
+	font-size: 30px;
+	line-height: 55px;
+	float: left;
+	padding: 5px 50px 5px 110px;
+	font-weight: bold;
+}
+
+.navbar ul {
+	float: right;
+	padding-right: 50px;
+}
+
+.navbar ul li {
+	float: right;
+	list-style: none;
+	position: relative;
+}
+
+.navbar ul li a {
+	display: block;
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color: #c9c9c9;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #292930;
+	padding: 0px;
+	border-radius: 0px 0px 14px 14px;
+}
+
+.navbar ul li:hover ul {
+	display: block;
+}
+
+.navbar ul li ul li {
+	width: 100px;
+}
+
+.navbar ul li ul li a {
+	padding: 6px 10px;
+	text-align: center;
+}
+
+.navbar ul li ul li a:hover {
+	background-color: #787878
+}
+
+
+
+body{
+	font-size:15px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color:#919191; 
+	}
+	
+
+	
+.fl_left{
+	float:left;
+	padding: 20px 20px 20px 60px;
+	background: #292930;
+	color: #c9c9c9;
+}
+.fl_right{
+	float:right;
+	padding: 20px 60px 20px 20px;
+	background: #292930;
+	color: #c9c9c9;
+}
+
+.signiture {
+	height: 60px;
+	width: auto;
+	background: #292930;
+}
+
+
+
+
+.tablestyle{
+	padding:50px;
+	width:100%; 
+	line-height:1.8em;
+	font-size:13px; 
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800; 
+	width: 60%;
+	margin: 0 auto;
+
+	}
+	
+.fl_right_more{
+	float:right;
+}
